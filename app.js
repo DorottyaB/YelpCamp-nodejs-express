@@ -73,7 +73,6 @@ const sessionConfig = {
 };
 app.use(session(sessionConfig));
 app.use(flash());
-// app.use(helmet());
 
 const scriptSrcUrls = [
   'https://stackpath.bootstrapcdn.com/',
@@ -133,10 +132,6 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 app.use((req, res, next) => {
-  //isLoggedIn middleware sets it currently
-  /* if (!['/login', '/'].includes(req.originalUrl)) {
-    req.session.returnTo = req.originalUrl;
-  } */
   res.locals.currentUser = req.user;
   res.locals.success = req.flash('success');
   res.locals.error = req.flash('error');
