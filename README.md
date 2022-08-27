@@ -3,8 +3,6 @@ A full stack web development project that allows users to view, post and leave r
 
 This website is not intended for public use. All campgrounds are randomly generated.
 
-Visit the link: https://still-stream-04673.herokuapp.com/
-
 TOOLS & TECHNOLOGIES USED:
 
 - HTML5
