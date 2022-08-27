@@ -17,3 +17,5 @@ TOOLS & TECHNOLOGIES USED:
 - MAPBOX
 - MONGO ATLAS
 - GIT
+
+![screenshot](https://github.com/DorottyaB/YelpCamp/blob/main/screenshots/campgrounds.png)
