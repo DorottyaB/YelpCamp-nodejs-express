@@ -18,4 +18,4 @@ TOOLS & TECHNOLOGIES USED:
 - MONGO ATLAS
 - GIT
 
-![screenshot](https://github.com/DorottyaB/YelpCamp/blob/main/screenshots/campgrounds.png)
+![screenshot](https://github.com/DorottyaB/YelpCamp/blob/main/screenshots/yelp-camp.png)
